@@ -56,4 +56,6 @@ int main () {
     std:: cout<<"I like " << food << "\n";
     std:: cout<<"you are "<< age <<" years old" << "\n";
 
+
+    return 0; // return 0 means the program has executed successfully
 }
