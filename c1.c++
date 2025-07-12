@@ -1,6 +1,5 @@
 #include <iostream>
-
-
+// This program demonstrates the use of different data types in C++
 int main () {
     int x; // declaration           //int(datatype)stores only integers (whole Numbers) 
     x=5;                            //int age=21;
@@ -16,10 +15,6 @@ int main () {
     std:: cout<< x <<"\n";
     std:: cout<< y <<"\n";  
     std:: cout<< sum << "\n";
-
-
-
-
 
     //single character
     char grade='A'; // char stores only one character
@@ -55,6 +50,10 @@ int main () {
     std:: cout<<"Today is " << day << "\n"; 
     std:: cout<<"I like " << food << "\n";
     std:: cout<<"you are "<< age <<" years old" << "\n";
+
+
+
+
 
 
     return 0; // return 0 means the program has executed successfully
