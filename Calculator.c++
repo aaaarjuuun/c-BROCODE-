@@ -7,7 +7,13 @@ int main()
     double num2;
     double result;
 
+
+    std::cout << "****************************************\n";
+    std::cout << "***************************************\n";
     std::cout << " ************ CALCULATOR ************\n";
+    std::cout << "***************************************\n";
+    std::cout << "****************************************\n";
+
 
     std::cout << " Enter either(+, -, *, /) to perform an operation: ";
     std::cin >> op;
@@ -43,8 +49,9 @@ int main()
         default:
         std::cout << " Invalid operator! Please try again with valid operators (+ - * /)\n";
     }
-
     std::cout << "***************************************\n";
+    std::cout << "***************************************\n";
+    std::cout << "****************************************\n";
 
     return 0;
 }
